@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    /* display: grid; */
+}
+.menu-heading{
+    padding: 20px 40px 0 ;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30%;
+    padding: 35px 25px 10px;
+    background-color: #495E57;
+    color: #F4ce14;
+}
+/* .top h2{
+    margin: 0 auto;
+} */
+form div{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+form input{
+    margin: 0 10px;
+    border-radius: 6px;
+    border: .5px solid black;
+    padding: 8px;
+    min-width: 40%;
+    
+    /* height: 30px; */
+    /* padding: 0px 3px; */
+}
+.table-info{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 10px;
+}
+[type = "date"], [type = "time"]{
+    width: 80%;
+}
+[type = "radio"]{
+    margin: 0px 2px;
+    
+}
+form div:last-child{
+    display: block;
+}
+.special_spot input{
+    min-width: 0%;
+}
+.special_spot div label{
+    padding: 0 20px;
+    justify-content: center;
+}
+.special_spot div label input{
+    margin: 0 20px;
+}
+
+/* contact-info */
+.contact-info{
+    border-top: 1.5px solid black;
+    margin: 20px;
+    padding: 10px 0;
+}
+.contact-info h2{
+    text-align: center;
+}
+.contact-info label{
+    margin: 20px 0;
+}
+.contact-info div{
+    margin: 10px ;
+}
+.contact-info input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 5px 0;
+    border-width: 1px;
+}
+
+/* .contact-info span{
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 6px;
+}
+input[type="number"]{
+    width: 84%;
+    margin-left: 2px;
+} */
+input[value="+234" ] {
+    width: 60px;
+    /* margin: 0%; */
+    margin-right: 10px;
+    /* padding-right: 20px; */
+    
+}
+.contact-info .phone-no{
+    display: flex;
+    margin: 0%;
+}
+button{
+    background-color: #FAB400;
+    color: #fff;
+    width: 100%;
+    border-radius: 6px;
+    margin: 10px;
+}

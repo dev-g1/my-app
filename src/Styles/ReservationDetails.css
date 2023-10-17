@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.reservation-details h2{
+    text-align: center;
+    color: #F4ce14;
+}
+.head{
+    background-color: #495e57;
+}
+.details{
+    margin: 10px 30px 60px;
+}
+p{
+    padding: 10px 0;
+}
+p span{
+    font-weight: bold;
+}
+.go-back{
+    background-color: #EDEFEE;
+    color: #FAB400;
+}
+hr{
+    margin: 20px 0;
+    background-color: black;
+}

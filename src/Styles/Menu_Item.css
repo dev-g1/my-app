@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    margin: 40px;
+    /* padding: 50px; */
+    /* min-width: 20%; */
+    border-radius: 15px;
+    background-color: #EDEFEE;
+}
+.menu img{
+    border-radius: 15px 15px 0 0;
+}
+.menu_details , .order, .menu_details h3{
+    padding: 20px;
+}
+.menu_details h3{
+    padding: 10px 0;
+}
